@@ -1,0 +1,24 @@
+https://www.javatpoint.com/example-to-connect-to-the-oracle-database
+http://www.skylit.com/javamethods/faqs/createjar.html
+sqlplus / as sysdba
+create user tanmay identified by password
+grant all privileges to userName identified by password;
+
+
+
+Compile your class(es):
+C:\mywork> javac *.java
+Create a manifest file and your jar file:
+C:\mywork> echo Main-Class: Craps >manifest.txt
+C:\mywork> jar cvfm Craps.jar manifest.txt *.class
+or
+C:\mywork> jar cvfe Craps.jar Craps *.class
+Test your jar:
+C:\mywork> Craps.jar
+
+
+
+create table Employee(id int, name varchar(20),email varchar(20), phoneno varchar(20), address varchar(20));
+create table Job_details(id int, post varchar(20),criteria varchar(20), vacancy int, salary int);
+create table Result(id int, employee_id int,comapany_id int, marks int);
+
