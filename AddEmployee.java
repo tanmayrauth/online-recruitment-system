@@ -40,7 +40,7 @@ lblAddress.setBounds(100,250,80,30);
 txtAddress.setBounds(200,250,110,30);
 
 
-
+// adding components to jframe
 c.add(lblId);
 c.add(txtId);
 c.add(lblName);
