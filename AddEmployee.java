@@ -13,6 +13,7 @@ JPanel p1,p2;
 Connection con;
 Statement stmt;
 
+// adding employee constructor	
 AddEmployee(){
 super("Register Employee");
 c= getContentPane();
